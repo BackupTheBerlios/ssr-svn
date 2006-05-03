@@ -25,6 +25,7 @@ body
 
 #header
 {
+	background-color:#666:
 }
 
 
@@ -43,3 +44,8 @@ body
 }
 
 
+
+#footer
+{
+	background-color:#666:
+}
