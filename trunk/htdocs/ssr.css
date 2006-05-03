@@ -1,0 +1,45 @@
+body
+{
+	font-face: arial, verdana, helvetica, sans-serif;
+	background-color:#eee;
+}
+
+
+
+
+#menu
+{
+	background-color:#ddd;
+	float:left;
+	margin-right:1em;
+	padding-right:1.5em;
+}
+
+#menu ul
+{
+	list-style:square;
+}
+
+
+
+
+#header
+{
+}
+
+
+
+
+#maintitle
+{
+	color:#0000aa;
+}
+
+
+
+#content
+{
+	text-align:center;
+}
+
+
