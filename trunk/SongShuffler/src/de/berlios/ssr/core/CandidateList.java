@@ -1,4 +1,4 @@
-package songshuffler.core;
+package de.berlios.ssr.core;
 
 
 public interface CandidateList {
