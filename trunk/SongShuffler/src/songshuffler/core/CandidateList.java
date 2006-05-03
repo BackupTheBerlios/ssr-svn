@@ -12,5 +12,5 @@ public interface CandidateList {
     
     void reset();
     
-    void resetItemState();
+    void resetAllItemState();
 }

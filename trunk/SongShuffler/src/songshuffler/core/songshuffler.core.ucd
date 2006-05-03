@@ -8,7 +8,7 @@
       <children xsi:type="editmodel:MethodEditModel" name="getRandomItem" id="songshuffler.core/CandidateList#getRandomItem()"/>
       <children xsi:type="editmodel:MethodEditModel" name="removeItem" id="songshuffler.core/CandidateList#removeItem()"/>
       <children xsi:type="editmodel:MethodEditModel" name="reset" id="songshuffler.core/CandidateList#reset()"/>
-      <children xsi:type="editmodel:MethodEditModel" name="resetItemState" id="songshuffler.core/CandidateList#resetItemState()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetItemState" id="songshuffler.core/CandidateList#resetAllItemState()"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel"/>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
