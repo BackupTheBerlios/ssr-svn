@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="541,377" id="songshuffler.core" metadata="uml2-1.0" initialized="true" tag="1000" key="323030363033323020536F6E6753687566666C65722F6A61636B">
+  <children xsi:type="editmodel:InterfaceEditModel" name="CandidateList" location="130,60" size="127,167" id="songshuffler.core/CandidateList" runTimeClassModel="resetItemState(),addList(),getRandomItem(),addItem(),removeItem(),reset()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,108">
+      <children xsi:type="editmodel:MethodEditModel" name="addItem" id="songshuffler.core/CandidateList#addItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addList" id="songshuffler.core/CandidateList#addList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRandomItem" id="songshuffler.core/CandidateList#getRandomItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeItem" id="songshuffler.core/CandidateList#removeItem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="songshuffler.core/CandidateList#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetItemState" id="songshuffler.core/CandidateList#resetItemState()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
