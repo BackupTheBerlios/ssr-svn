@@ -6,7 +6,7 @@ import java.io.FilenameFilter;
 
 /**
  * Definisce le operazioni basilari per configurare il core e metodi per
- * reperire l'attuale configurazione
+ * reperire l'attuale configurazione.
  * 
  * @author jack
  */
