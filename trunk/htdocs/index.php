@@ -34,7 +34,6 @@
 			<!-- l'id del progetto 6590 non deve essere modificato -->
 			<img id="berlioslogo" src="http://developer.berlios.de/bslogo.php?group_id=6590" alt="BerliOS Developer Logo" />
 		</a>
-		
 		Aggiornato il 6 maggio 2006. Tutti i contenuti del sito rilasciati sotto licenza <a href="http://www.gnu.org/">GFDL</a>.
 	</div>
 </body>
