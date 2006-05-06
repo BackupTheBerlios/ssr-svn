@@ -19,6 +19,7 @@
 			<li>~/<a href="http://developer.berlios.de/projects/ssr/">overview</a></li>
 			<!-- <li>~/download</li> -->
 			<li>~/<a href="http://svn.berlios.de/wsvn/ssr">code</a></li>
+			<li>~/<a href="doc">code/doc</a></li>
 			<li>~/<a href="http://developer.berlios.de/project/memberlist.php?group_id=6590">contacts</a></li>
 			<!-- <li>~/credits</li> -->
 		</ul>
