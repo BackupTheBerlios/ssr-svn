@@ -2,7 +2,7 @@ package de.berlios.ssr.core;
 
 /**
  * Definisce i metodi per gestire la lista di tutti i file che possono essere
- * scelti per venire copiati
+ * scelti per venire copiati.
  * 
  * @author jack
  */
