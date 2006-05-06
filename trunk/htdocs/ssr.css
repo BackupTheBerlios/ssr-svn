@@ -1,7 +1,10 @@
 body
 {
-	font-face: arial, verdana, helvetica, sans-serif;
-	background-color:#eee;
+	font-style: arial, verdana, helvetica, sans-serif;
+	font-size:12pt;
+	background-color:#ddd;
+	width:70%;
+	margin-left:15%;
 }
 
 
@@ -11,36 +14,48 @@ body
 {
 	background-color:#ddd;
 	float:left;
-	margin-right:1em;
-	padding-right:1.5em;
+	padding-left:.5em;
+	padding-right:.5em;
 }
 
 #menu ul
 {
 	list-style:square;
+	
 }
 
 
 
-
+/*
 #header
 {
 	background-color:#666;
 }
 
+#header img
+{
+	margin:none;
+	padding:none;
+	border:none;
+	float:right;
+}
+*/
 
 
 
 #maintitle
 {
+	
+	text-align:center;
 	color:#0000aa;
+	margin:0px .5em 0px .5em;
 }
 
 
 
 #content
 {
-	text-align:center;
+	background-color:#eee;
 }
 
 
@@ -48,4 +63,12 @@ body
 #footer
 {
 	background-color:#666;
+}
+
+#berlioslogo
+{
+	border:none;
+	padding:none;
+	margin:none;
+	vertical-align:middle;
 }
