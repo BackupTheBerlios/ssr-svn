@@ -10,19 +10,15 @@ import java.io.FilenameFilter;
  * 
  * @author jack
  */
-/**
- * @author jack
- * 
- */
 public interface Configuration {
 
     /**
      * Imposta tutti i valori a quelli di default.
      */
     public void setDefault();
-    
+
     /**
-     * Imposta come predefinita la configurazione corrente.  
+     * Imposta come predefinita la configurazione corrente.
      */
     public void setCurrentAsDefault();
 
