@@ -40,7 +40,7 @@
 <ul>
 	<li>create una cartella con nome a piacere</li>
 	<li>cliccateci sopra con il tasto destro</li>
-	<li>scegliete <code>SVN Checkout</code> dal nuovo sottomenu <code>TortoiseSVN</code></li>
-	<li>inserite l'indirizzo <code>svn://svn.berlios.de/ssr/trunk</code></li>
-	<li>se chiede il login scegliete di essere anonimi e attendere lo scaricamento</li>
+	<li>scegliete <code>SVN Checkout</code></li>
+	<li>inserite l'indirizzo <code>svn://svn.berlios.de/ssr/trunk</code> e date l'ok</li>
+	<li>se chiede il login scegliete di essere anonimi e attendete lo scaricamento</li>
 </ul>
