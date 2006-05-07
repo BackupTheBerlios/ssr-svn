@@ -1,8 +1,8 @@
 <h2 class="section_title">Welcome</h2>
 
-<p><i>SongShuffler</i> è un progetto a fini didattici.</p>
-<p>L'<b>obiettivo pratico</b> è scrivere una semplice applicazione in <a href="http://java.sun.com/">Java</a> per la copia casuale di file musicali da disco rigido a lettore musicale portatile. Più in generale deve poter copiare da un insieme di directory a una di destinazione tutti i file che soddisfino i filtri impostati fino al raggiungimento di una data dimensione.</p>
-<p>Gli <b>obiettivi didattici</b> puntano ad acquisire capacità di design, familiarità con gli strumenti di sviluppo come <a href="http://www.eclipse.org/">Eclipse</a> e <a href="http://subversion.tigris.org/">Subversion</a> e con il lavoro di gruppo.</p>
+<p><i>SongShuffler</i> è un progetto a fine didattico.</p>
+<p>L'<b>obiettivo pratico</b> è scrivere una semplice applicazione in <a href="http://java.sun.com/">Java</a> per la copia casuale di file musicali da disco rigido a lettore musicale portatile. Più in generale deve poter copiare da un insieme di directory sorgente a una di destinazione tutti i file che soddisfino i filtri impostati fino al raggiungimento di una data dimensione.</p>
+<p>Gli <b>obiettivi didattici</b> puntano ad acquisire capacità di design e familiarità con gli strumenti di sviluppo come <a href="http://www.eclipse.org/">Eclipse</a> e <a href="http://subversion.tigris.org/">Subversion</a>, abituandosi al lavoro di gruppo.</p>
 
 <h3>Sezioni</h3>
 <ul>
