@@ -1,74 +1,112 @@
-body
-{
-	font-style: arial, verdana, helvetica, sans-serif;
-	font-size:12pt;
-	background-color:#ddd;
-	width:70%;
-	margin-left:15%;
+body {
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 12pt;
+	margin:0 1em 0 1em;
 }
 
 
-
-
-#menu
-{
-	background-color:#ddd;
-	float:left;
-	padding-left:.5em;
-	padding-right:.5em;
-}
-
-#menu ul
-{
+/* general settings */
+ul {
 	list-style:square;
+}
+
+
+code {
+	font-style:italic;
+}
+/* end of general settings */
+
+
+
+/* top header with site title */
+div#top {
+	padding:0;
+	margin:0;
+}
+
+div#top h1#title {
+	font-style: italic;
+}
+
+div#top img#berlios {
+	float:right;
+	border:none;
+	
+	width:124px;
+	height:32px;
+}
+
+/* end of top header */
+
+
+
+/* menu */
+
+div#main_menu, div#news {
+	border:1px #6B788F solid;
+	position:relative;
+	width:20%;
+	float:right;
+	text-align:center;
+}
+
+div#news {
+	border-top:0;
+}
+
+div#main_menu ul {
+	padding:1em;
+	margin:0;
+	list-style: none;
+	text-align:left;
+}
+
+div#main_menu li {
+}
+
+div#main_menu li a{
+	text-decoration:none;
+}
+
+/* end of menu */
+
+
+/* main part starts here*/
+
+div#body {
+	border-top:1px #6B788F solid;
+	width:79%;
+	float:left;
+}
+
+h2.section_title {
+	margin-top:0;
+	text-align: right;
+	color:#6B788F;
+	background-color:transparent;
+}
+
+div#body div#footnotes {
+	border-top:1px #6B788F solid;
+	font-size: 9pt;
+}
+
+div#mail {
 	
 }
 
-
-
-/*
-#header
-{
-	background-color:#666;
-}
-
-#header img
-{
-	margin:none;
-	padding:none;
-	border:none;
+div#validators {
 	float:right;
 }
-*/
 
 
 
-#maintitle
-{
-	
-	text-align:center;
-	color:#0000aa;
-	margin:0px .5em 0px .5em;
+div#license{
+	margin:1em 0 1em 0;
 }
 
-
-
-#content
-{
-	background-color:#eee;
+img#cc {
+	border:0;
 }
 
-
-
-#footer
-{
-	background-color:#666;
-}
-
-#berlioslogo
-{
-	border:none;
-	padding:none;
-	margin:none;
-	vertical-align:middle;
-}
+/* end of main part */

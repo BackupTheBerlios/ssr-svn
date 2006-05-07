@@ -1,40 +1,86 @@
+<?php
+
+	include_once('inc/defs.inc.php');
+
+	// where we are?
+	if (isset($_GET['browse']))
+		$topic = $_GET['browse'];
+	else
+		$topic = 'welcome';
+
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html lang="it">
+<html>
 <head>
-	<title>SongShuffler home page</title>
+	<title>SongShuffler:/home<?php echo '/'.$topic; ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="ssr.css" />
 </head>
 
 <body>
-	<div id="header">
-		
-	</div>	<!-- /header -->
-	
-	<div id="menu">
-		<h1 id="maintitle">SongShuffler</h1>
-		<ul>
-			<li><a href="http://ssr.berlios.de/">~/</a></li>
-			<li>~/<a href="http://developer.berlios.de/projects/ssr/">sommario</a></li>
-			<!-- <li>~/download</li> -->
-			<li>~/<a href="http://svn.berlios.de/wsvn/ssr">codice</a></li>
-			<li>~/<a href="doc">codice/doc</a></li>
-			<li>~/<a href="http://developer.berlios.de/project/memberlist.php?group_id=6590">contatti</a></li>
-			<!-- <li>~/credits</li> -->
-		</ul>
-	</div>	<!-- /menu -->
-	
-	<div id="content">
-		
-		<img src="img/work_in_progress.png" />		
-	</div>	<!-- /content -->
-	
-	<div id="footer">
+	<!-- top -->
+	<div id="top">
 		<a href="http://developer.berlios.de" title="BerliOS Developer">
-			<!-- l'id del progetto 6590 non deve essere modificato -->
-			<img id="berlioslogo" src="http://developer.berlios.de/bslogo.php?group_id=6590" alt="BerliOS Developer Logo" />
+			<img id="berlios" src="http://developer.berlios.de/bslogo.php?group_id=6590" alt="BerliOS Developer Logo" />
 		</a>
-		Aggiornato il 6 maggio 2006. Tutti i contenuti del sito rilasciati sotto licenza <a href="http://www.gnu.org/">GFDL</a>.
+		<h1 id="title">SongShuffler</h1>
 	</div>
+	<!-- /top -->
+
+
+	<!-- body -->
+	<div id="body">
+	
+		<?php include_once(CONTENTS_DIR.$topic.'.inc.php'); ?>
+		
+		<!-- footnotes -->
+  		<div id="footnotes">
+	   	<!-- validatori -->
+	   	<div id="validators">
+   			<a href="http://validator.w3.org/check?uri=referer">xhtml</a> ~ <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>
+   		</div>
+	   	<!-- /validatori -->  		
+  		
+			<div id="license">
+				I contenuti di questo sito sono rilasciati sotto la <a href="http://www.gnu.org/licenses/fdl.txt">Gnu Free Documentation License</a>
+		</div>
+			<div id="mail">
+				Mail: "rjack <i>at</i> users <i>dot</i> berlios <i>dot</i> de"
+			</div>  
+   	</div>
+   	<!-- /footnotes -->	
+	</div>
+	<!-- /body -->
+
+
+	<!-- main menu -->
+	<div id="main_menu">
+		<ul>
+			<li><a href="index.php">home</a></li>
+			<li><a href="index.php?browse=code">codice</a></li>
+			<li><a href="index.php?browse=users">utenti</a></li>
+			<li><a href="index.php?browse=developers">sviluppatori</a></li>
+			<!-- <li><a href="index.php?browse=misc">miscellanea</a></li> -->
+		</ul>
+	</div>
+	<!-- /main menu -->
+	
+	<!-- news -->
+	<div id="news">
+		<h3>New</h3>
+		<p class="even">06.05.2006<br />
+			Prima versione del sito.
+		</p>
+		<!--		
+		<p class="odd">18/7/2005<br />
+			<a href="index.php?browse=unibo&amp;subtopic=appuntifisica">appunti di fisica</a> in <a href="index.php?browse=unibo">unibo</a>
+		</p>
+		-->
+	</div>
+	<!-- /news -->
+
+
 </body>
+
 </html>
