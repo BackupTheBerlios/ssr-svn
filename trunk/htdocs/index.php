@@ -62,6 +62,7 @@
 			<li><a href="index.php?browse=users">utenti</a></li>
 			<li><a href="index.php?browse=developers">sviluppatori</a></li>
 			<!-- <li><a href="index.php?browse=misc">miscellanea</a></li> -->
+			<li><a href="wiki/">wiki</a></li>
 		</ul>
 	</div>
 	<!-- /main menu -->
@@ -69,14 +70,12 @@
 	<!-- news -->
 	<div id="news">
 		<h3>New</h3>
-		<p class="even">06.05.2006<br />
+		<p class="even">10 maggio 2006<br />
+			Aggiunto il <a href="wiki/">wiki</a>.
+		</p>
+		<p class="odd">6 maggio 2006<br />
 			Prima versione del sito.
-		</p>
-		<!--		
-		<p class="odd">18/7/2005<br />
-			<a href="index.php?browse=unibo&amp;subtopic=appuntifisica">appunti di fisica</a> in <a href="index.php?browse=unibo">unibo</a>
-		</p>
-		-->
+		</p>	
 	</div>
 	<!-- /news -->
 
