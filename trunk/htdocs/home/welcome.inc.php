@@ -9,7 +9,7 @@
 	<li><a href="index.php?browse=code">codice</a>: sorgenti rilasciati sotto <a href="http://www.gnu.org/licenses/gpl.txt">GNU General Public License</a>;</li>
 	<li><a href="index.php?browse=users">utenti</a>: manuali, versioni stabili;</li>
 	<li><a href="index.php?browse=developers">sviluppatori</a>: documentazione per sviluppatori, struttura del progetto, versioni non stabili, informazioni per partecipare;</li>
-	<li><a href="wiki/">wiki</a>: quadernone degli sviluppatori e lavori in corso. Cioò che risulta di buono finisce nella sezione <a href="index.php?browse=developers">sviluppatori</a>.</li>
+	<li><a href="wiki/">wiki</a>: quadernone degli sviluppatori per i lavori in corso. Ciò che risulta di buono finisce nella parte statica del sito.</li>
 	<!-- <li><a href="index.php?browse=misc">miscellanea</a>: tutto il resto.</li>-->
 </ul>
 
