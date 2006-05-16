@@ -1,5 +1,7 @@
 package de.berlios.ssr.paciughi;
 
+import de.berlios.ssr.core.Configurable;
+
 /**
  * Qualcosa da studiare potrebbero essere le Preferences. Servono per salvare
  * una configurazione come albero in cui ogni nodo è una preferenza. Si può
@@ -12,7 +14,7 @@ package de.berlios.ssr.paciughi;
  * Guida su java.sun.com
  * http://java.sun.com/j2se/1.5.0/docs/guide/preferences/index.html
  */
-public class SongShufflerTest {
+public class SongShufflerTest implements Configurable {
 
     /**
      * Main di prova, utilizzato per giocare con le Preferences
@@ -20,8 +22,18 @@ public class SongShufflerTest {
      * @param args
      */
     public static void main(String[] args) {
-        // TODO Seguire i passi sulla guida
+       
 
+    }
+
+    public void loadConfiguration() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void saveConfiguration() {
+        // TODO Auto-generated method stub
+        
     }
 
 }
