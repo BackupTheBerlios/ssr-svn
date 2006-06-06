@@ -18,7 +18,7 @@ public class FileSelector {
 	 * I file sono cercati nelle directory impostate da setSource e
 	 * setRecursiveSource: nelle prime vengono scelti i file contenuti
 	 * direttamente nella directory, nelle seconde anche i file contenuti nelle
-	 * sottodirectory fino al massimo livello di profondit‡.
+	 * sottodirectory fino al massimo livello di profondit√†.
 	 * 
 	 * @return un ArrayList di File contenuti nelle directory sorgente.
 	 */
