@@ -1,5 +1,9 @@
 <?php
 
+	// redirect al wiki
+	header("Location: http://" . $_SERVER["HTTP_HOST"] . "/wiki/");
+	exit; 
+
 	include_once('inc/defs.inc.php');
 
 	// where we are?
